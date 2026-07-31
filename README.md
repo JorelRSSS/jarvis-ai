@@ -1,28 +1,44 @@
-# Jarvis AI — Ultimate Digital Brain
+# JARVIS — Ultimate AI Assistant Platform
 
-A comprehensive AI assistant platform inspired by Iron Man's JARVIS. Built with React + TypeScript + Tailwind CSS.
+A full-featured, production-ready AI assistant platform built with React, TypeScript, and Tailwind CSS.
 
 ## Features
 
-- **Multi-Model Chat** — Support for GPT-4, Claude, Gemini, and local models with streaming responses
-- **Persistent Memory** — Long-term memory system with search, categories, and timestamps
-- **Skills System** — Modular plugin architecture with a skill marketplace
-- **Task Automation** — Agent system with multi-step workflows and task queues
-- **Knowledge Base** — Document management with vector search
-- **Video Studio** — AI video generation from text prompts
-- **Social Media** — Multi-platform publishing (Instagram, TikTok, Twitter, YouTube, LinkedIn)
-- **Trading** — Portfolio management, charts, AI signals, risk management
-- **Prospecting** — Lead generation pipeline with automated outreach
-- **Analytics** — Usage statistics, performance metrics, cost tracking
-- **Iron Man Theme** — Gold/black color scheme, Orbitron fonts, arc reactor, HUD elements
+### Dashboard
+- **Overview**: Welcome card, quick stats, recent conversations, activity chart
+- **Chat**: Multi-conversation support, markdown rendering, model selector, streaming responses
+- **Tasks & Automations**: Task management with status tracking, priorities, and scheduling
+- **Skills & Plugins**: Skill marketplace with install/configure, pre-built skills
+- **Memory**: Persistent memory with categories, importance levels, and search
+- **Knowledge**: Knowledge base with document management
+- **Analytics**: Usage analytics with charts and metrics
+- **Settings**: Profile, model config, appearance, notifications, API keys
 
-## Tech Stack
+### Technical
+- React 18 + TypeScript + Vite
+- Tailwind CSS with dark glassmorphism theme
+- Zustand for state management
+- Recharts for data visualization
+- React Markdown for message rendering
+- Lucide React for icons
+- localStorage persistence (no backend required)
+- Fully responsive (mobile, tablet, desktop)
+- Dark/light theme with system detection
+- Keyboard shortcuts (⌘K command palette)
+- Accessible (ARIA labels, keyboard navigation)
 
-- React + Vite
-- TypeScript
-- Tailwind CSS
-- Zustand (state management)
-- Recharts (analytics)
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
 
 ## Live Demo
 
@@ -30,4 +46,4 @@ https://jarvis-dashboard.dls.so
 
 ## License
 
-Proprietary — Company #773221
+MIT
